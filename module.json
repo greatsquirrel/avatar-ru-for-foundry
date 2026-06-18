@@ -7,13 +7,20 @@
       "name": "Белка"
     }
   ],
-  "version": "1.0.3",
+  "version": "1.0.4",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
   },
   "esmodules": [
     "register.js"
+  ],
+  "languages": [
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    }
   ],
   "relationships": {
     "requires": [
@@ -25,5 +32,5 @@
   },
 
   "manifest": "https://raw.githubusercontent.com/greatsquirrel/avatar-ru-for-foundry/main/module.json",
-  "download": "https://github.com/greatsquirrel/avatar-ru-for-foundry/releases/download/v1.0.3/avatar-ru-translate.zip"
+  "download": "https://github.com/greatsquirrel/avatar-ru-for-foundry/releases/download/v1.0.4/avatar-ru-translate.zip"
 }
