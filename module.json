@@ -1,0 +1,29 @@
+{
+  "id": "avatar-ru-translate",
+  "title": "Легенда об Аватаре ru",
+  "description": "Перевод системы 'Легенда об Аватаре' на русский язык.",
+  "authors": [
+    {
+      "name": "Белка"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "esmodules": [
+    "register.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module"
+      }
+    ]
+  },
+
+  "manifest": "https://raw.githubusercontent.com/SquirrelBro/avatar-ru-for-foundry/main/avatar-ru-translate/module.json",
+  "download": "https://github.com/SquirrelBro/avatar-ru-for-foundry/releases/download/v1.0.0/foundry_ru_avatar.zip"
+}
